@@ -1,0 +1,36 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+#status-container {
+	width: 250px;
+	height: 58px;
+	font-family: 'Roadgeek2005SeriesD', sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+	background: url('GitHub-Mark-bg.png') no-repeat;
+	padding-left: 10px;
+	/*background-color: black;*/
+}
+
+h1 {
+	width: 180px;
+	padding-top: 7px;
+	padding-left: 50px;
+	font-size: 18px;
+	line-height: 18px;
+	color: #7E7E7E;
+	text-transform: uppercase;
+}
+
+.good {
+	color: rgb(0, 186, 0);
+}
+
+.minor {
+	color: rgb(255, 198, 0);
+}
+
+.major {
+	color: rgb(255, 48, 0);
+}
