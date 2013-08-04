@@ -1,6 +1,6 @@
 #GitHub Status for Status Board
 
-A simple widget for [Status Board for iPad](http://panic.com/statusboard) to show the current status of GitHub (`Good`, `Minor`, `Major`).
+A widget for [Status Board for iPad](http://panic.com/statusboard) to show the current status of GitHub (`Good`, `Minor`, `Major`). It checks [status.github.com](http://status.github.com) every 15 minutes for changes.
 
 ![](screenshot.png)
 
@@ -8,4 +8,6 @@ A simple widget for [Status Board for iPad](http://panic.com/statusboard) to sho
 
 **Manual**: Select the "Do-It-Yourself" widget and set the panel URL to `http://labs.robblewis.me/githubstatusboard`
 
-**Automatic**: Visit [this page](http://labs.robblewis.me/githubstatusboard/add.php) this page on your iPad and press "Add to Status Board"
+**Automatic**: Visit [this page](http://labs.robblewis.me/githubstatusboard/add.php) this page on your iPad and press "Add to Status Board".
+
+**Self Hosted**: Upload the file to your server and set a DIY panel to `yourdomain/githubstatus`. *NB: You will need to change the URL in `add.php` if you wish to use automatic adding to Status Board.*
